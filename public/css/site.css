@@ -1,3 +1,68 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
+* {
+	margin: 0;
+	padding: 0;
+}
 
+body {
+	font-family: Open Sans;
+}
+
+section article {
+	width: 545px;
+	margin: 0 auto;
+}
+
+section#main {
+	background: #602f69;
+	color: #ad9bb0;
+	padding: 140px 0 0 0;
+}
+
+#main h1 {
+	margin: 0 auto;
+	width: 629px;
+}
+
+#main h1 a {
+	display: block;
+	overflow: hidden;
+	text-indent: -1000em;
+	width: 629px;
+	height: 150px;
+	background: url(../img/branding.png) no-repeat left top;
+}
+
+#main h2 {
+	color: #9c69a6;
+	text-transform: uppercase;
+}
+
+#main article {
+	text-align: center;
+	padding: 150px 50px;
+}
+
+section#about {
+	background: #e6e6e6;
+	color: #9b9b9b;
+}
+
+section#tls {
+	background: #fff;
+	color: #9b9b9b;
+}
+
+section#dina {
+	background: #737477;
+	color: #fff;
+}
+
+footer {
+	background: #602f69;
+}
+
+footer a {
+	color: #967e9b;
+}
