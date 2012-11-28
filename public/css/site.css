@@ -7,6 +7,12 @@
 
 body {
 	font-family: Open Sans;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+p {
+	padding-bottom: 10px;
 }
 
 section article {
@@ -37,32 +43,94 @@ section#main {
 #main h2 {
 	color: #9c69a6;
 	text-transform: uppercase;
+	font-size: 60px;
+	line-height: 100px;
+	font-weight: normal;
 }
 
 #main article {
 	text-align: center;
-	padding: 150px 50px;
+	font-size: 18px;
+	line-height: 22px;
+	padding: 100px 100px;
+	width: 440px;
 }
 
 section#about {
 	background: #e6e6e6;
 	color: #9b9b9b;
+	padding: 35px 0;
+}
+
+section#about h3 {
+	text-transform: uppercase;
+	font-size: 16px;
+	padding-bottom: 10px;
 }
 
 section#tls {
 	background: #fff;
 	color: #9b9b9b;
+	padding: 50px 0;
+}
+
+section#tls article img {
+	position: relative;
+	margin-left: -95px;
+	float: left;
+}
+
+section#tls article p {
+	padding: 20px 0;
 }
 
 section#dina {
-	background: #737477;
+	background: #737477 url(../img/dina.png) no-repeat center 30px;
 	color: #fff;
+	padding: 210px 0 50px 0;
+	text-align: center;
 }
 
 footer {
 	background: #602f69;
+	padding: 50px 0;
+	text-align: center;
+	font-size: 16px;
 }
 
 footer a {
+	display: inline-block;
 	color: #967e9b;
+	text-decoration: none;
+}
+
+footer a:hover { text-decoration: underline; }
+
+footer a.email {
+	background: url(../img/icon-mail.png) no-repeat center left;
+	padding-left: 23px;
+	margin-right: 20px;
+}
+
+footer a.facebook {
+	background: url(../img/icon-facebook.png) no-repeat center left;
+	padding-left: 23px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }
